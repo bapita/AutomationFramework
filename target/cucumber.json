@@ -1,0 +1,118 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is actually successfully logged in",
+            "match": {
+              "location": "com.tech.steps.CheckoutSteps.user_is_actually_successfully_logged_in()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-17T12:56:18.516Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2000200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.tech.steps.Hooks.start()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Print dataTable info",
+        "description": "",
+        "id": "checkout;print-datatable-info",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.tech.steps.Hooks.end(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 27,
+            "name": "I provide the dataTable info",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "Item",
+                  "FirstName",
+                  "LastName",
+                  "Zip"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Bike Light",
+                  "test",
+                  "test",
+                  "12345"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Fleece Jacket",
+                  "test2",
+                  "test2",
+                  "23456"
+                ]
+              }
+            ],
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@checkout"
+          },
+          {
+            "name": "@dt"
+          }
+        ]
+      }
+    ],
+    "name": "checkout",
+    "description": "",
+    "id": "checkout",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Checkout.feature",
+    "tags": [
+      {
+        "name": "@checkout",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
